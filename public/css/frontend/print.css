@@ -1,0 +1,31 @@
+@media print {
+    .top-bar,.off-canvas-menu,.header-top-area .menu-toggle-btn,.marquee-section,.double-ad,.single-page-ad,.comment-section,.more-news-singlepage,.footer-area,.right-content-section,.social-icons{
+        display: none;
+    }
+    #return-to-top{
+        display: none;
+        visibility: hidden;
+    }
+    .single-page-news-area .container{
+        width: 100%;
+    }
+    .logo img {
+    height: 56px;
+    margin-right: 45%;
+    }
+    .left-content-section .news-feature-img{
+        width: 100%;
+    }
+    body p{
+        font-size: 15px;
+    }
+    .single-page-news-area:after {
+        content: "\ All Rights Reserved. (c) 2017 Bangladesh Times - BangladeshTimes.com";
+        color: #999 !important;
+        font-size: 1em;
+        padding-top: 30px;
+    }
+    a:after > img {
+        content: "";
+    }
+}
